@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="helloworld.dsn.hand">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/head"
+        android:label="顺手"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity_phone">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity_student" />
+        <activity android:name=".Main_activity_talking" />
+        <activity android:name=".MainActivity_person" />
+        <activity android:name=".MainActivity_information" />
+        <activity android:name=".MainActivity_shezhi" />
+        <activity android:name=".MainActivity_dingdanxinxi"></activity>
+    </application>
+
+</manifest>
